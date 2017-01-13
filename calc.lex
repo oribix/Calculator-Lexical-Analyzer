@@ -12,7 +12,7 @@
 "="           printf("EQUAL\n");
 .             {
                 printf("ERROR: unrecognized character\n");
-                exit(-1);
+                exit(0);
               }
 %%
 
